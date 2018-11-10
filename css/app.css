@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    padding: 20px;
+    font-family:'Open Sans', sans-serif;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+img { 
+    width: 100%;
+    height: 100%;
+    
+}
+img,embed,object,video{
+	
+	max-width:100%;
+}
+.container{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	width:100%;
+	
+}
+.c1, .c2, .c3, .c4{
+  width: 100%;
+
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width:447px)
+{
+	  .c1 {
+    width: 50%;
+    -webkit-order: 2;
+    order: 2;
+	margin-left:auto;
+	margin-right:auto;
+  }
+
+  .c2 {
+    width: 50%;
+    -webkit-order: 1;
+    order: 1;
+	margin-left:auto;
+	margin-right:auto;
+  }
+
+  .c3 {
+    width: 50%;
+    -webkit-order: 3;
+    order: 3;
+	margin-left:auto;
+	margin-right:auto;
+	
+  }
+  .c4 {
+    width: 50%;
+    -webkit-order: 4;
+    order: 4;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.mainheading {
+	font-size:25px;
+	font-weight:bold;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+	
+footer,.portfolio{
+	padding-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.w3-button,h4{
+	width:100%;
+	font-size:10px;
+	font-weight:bold;
+	text-align:center;
+	color:purple;
+}
+.topright{
+	
+	position:center;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+img {
+	border-radius: 50%;
+	border: 2px solid #4C3C1B;
+	padding: 8px 8px 8px 8px;
+}
+
+
+
+}	
+
+
+	
+@media screen and (min-width:448px) and (max-width:750px) {
+  .c1 {
+    width: 60%;
+    -webkit-order: 2;
+    order: 2;
+	margin-left:auto;
+	margin-right:auto;
+  }
+
+  .c2 {
+    width: 60%;
+    -webkit-order: 1;
+    order: 1;
+	margin-left:auto;
+	margin-right:auto;
+  }
+
+  .c3 {
+    width: 60%;
+    -webkit-order: 3;
+    order: 3;
+	margin-left:auto;
+	margin-right:auto;
+	
+  }
+  .c4 {
+    width: 60%;
+    -webkit-order: 4;
+    order: 4;
+	margin-left:auto;
+	margin-right:auto;
+}
+footer,.portfolio{
+	padding-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	color:orange;
+}
+
+.w3-button,h4{
+	width:100%;
+	font-size:15px;
+	font-weight:bold;
+	text-align:center;
+	color:Blue;
+}
+
+.mainheading{
+	
+	font-size:25px;
+	font-weight:bold;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	position:inherit;
+	margin-top:auto;
+	margin-bottom:auto;
+	
+}	
+
+.topright{
+	
+	position:center;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+.photograph {
+	border-radius: 50%;
+	border: 2px dashed blue;
+	padding: 8px 8px 8px 8px;
+ }
+}
+
+@media (min-width: 751px) {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+	
+
+  }
+.mainheading{
+	
+	font-size:25px;
+	font-weight:bold;
+	margin-left:auto;
+	margin-right:0px;
+	margin-top:auto;
+	margin-bottom:auto;
+	
+}
+footer,.portfolio{
+	padding-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	color:Teal;
+}
+h1 {
+    font-size: 30px;
+   
+	
+}
+.photograph {
+	border-radius: 50%;
+	border: 2px dotted teal;
+	padding: 8px 8px 8px 8px;
+	align:centre;
+ }
+footer
+{
+	margin-top: 300px;
+	font-size: 1.143em;
+    font-weight: 400;
+    text-align: center;
+}
+.imgcontainer{
+	
+	position:absolute;
+	width:150px;
+	height:150px;
+}
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+	padding:10px;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+	height:auto;
+	width:auto;
+}
+
+
+}
+
+
+
